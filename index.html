@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Site</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item one">
+        <form class="one__form" action="#">
+          <div class="one__with">
+            <input class="one__with-input" type="radio" name="opt1" value="val1" id="first">
+            <label class="label-radio" for="first">Указать дополнительные данные</label>
+            <div class="one__attach">
+              <!-- <input type="text" id="text-input">
+              <label class="name-label" for="text-input">Введите ваше имя</label> -->
+              <input type="email" id="email-input">
+              <label class="mail-label" for="email-input">Введите ваш email</label>
+            </div>
+          </div>
+          <div class="one__without">
+            <input type="radio" name="opt1" value="val2" id="second">
+            <label class="label-radio" for="second">Продолжить как есть</label>
+          </div>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+      <div class="flex-item two">Второй</div>
+      <div class="flex-item three">Третий</div>
+    </div>
+  </body>
+</html>
